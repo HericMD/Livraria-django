@@ -18,8 +18,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'livraria',
-    'rest_framework_simplejwt'
-    'uploader'
+    'rest_framework_simplejwt',
+    'uploader',
     'drf_spectacular'
 ]
 
