@@ -1,0 +1,810 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-03-10T17:53:48.320Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "heric",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Cpf\", \"Data nascimento\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-03-10T17:54:08.786Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "legaheric",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-10T17:55:19.479Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "legaheric",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cpf\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-10T17:55:47.174Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "bazinga",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-10T17:57:43.110Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "bazinga",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cpf\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-14T19:40:29.434Z",
+    "user": 4,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "(SANNNNNEEEESSSSS - 7b9b7612-4234-43ba-acc9-c87f57723c2d)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-14T19:41:17.295Z",
+    "user": 4,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "SHUHSH",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-14T19:41:25.778Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "LEGAL :)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-14T19:41:53.186Z",
+    "user": 4,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "oad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-14T19:41:55.211Z",
+    "user": 4,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "aduadueteatutui (12510)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add autor",
+    "content_type": 6,
+    "codename": "add_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change autor",
+    "content_type": 6,
+    "codename": "change_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete autor",
+    "content_type": 6,
+    "codename": "delete_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view autor",
+    "content_type": 6,
+    "codename": "view_autor"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 7,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 7,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 7,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 7,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add editora",
+    "content_type": 8,
+    "codename": "add_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change editora",
+    "content_type": 8,
+    "codename": "change_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete editora",
+    "content_type": 8,
+    "codename": "delete_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view editora",
+    "content_type": 8,
+    "codename": "view_editora"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add livro",
+    "content_type": 9,
+    "codename": "add_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change livro",
+    "content_type": 9,
+    "codename": "change_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete livro",
+    "content_type": 9,
+    "codename": "delete_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view livro",
+    "content_type": 9,
+    "codename": "view_livro"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 10,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 10,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 10,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 10,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 11,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 11,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 11,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 11,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 12,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 12,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 12,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 12,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "livraria",
+    "model": "autor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "livraria",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "livraria",
+    "model": "editora"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "livraria",
+    "model": "livro"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "livraria",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h0xf4l1j8up1dzw8598phulery19r147",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnsZo1tSvqcwVr_cADZUpxUiLuTSCmgfTPz3sLxuhS39jS7KYqrAHH63TyHZ6o7iA-u9yZDq8s8ebkr8qBdji2m1-1w_w4K97LVpMiC9ZSRA54pD4a0T-AzDsooTpl1DmED0agIGobI3hqliRAR4CI-X90AN20:1pagso:t57Mx9V_kaKPrAKieBYlImIzeWriuS2V-iStRgGNsPM",
+    "expire_date": "2023-03-24T17:50:22.697Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s97exzo85fb7atnx2q65tgfliwe4ub6l",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDoAGVcuvcMZBhAqoYmpV0Z765NutDtf-_9lwi0rTVsPS9hSuIsjDj9bpH4kdsO0p3abZY8t3WZotwVedAur3PKz8vh_h1U6vVba0YoiUoxGJm1B6-isgzaGbCAjtEkqxB8pMRsB3Aq4zAyjWjZWyfeH-XNN4I:1pc9Mp:hifHKzuGaZrFltPEZAahJUgBh3aJ-qbkhocoVlrTcr4",
+    "expire_date": "2023-03-28T18:27:23.941Z"
+  }
+},
+{
+  "model": "livraria.autor",
+  "pk": 1,
+  "fields": {
+    "nome": "oad",
+    "email": "yqwgr@gnauk.com"
+  }
+},
+{
+  "model": "livraria.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "LEGAL :)"
+  }
+},
+{
+  "model": "livraria.editora",
+  "pk": 1,
+  "fields": {
+    "nome": "SHUHSH",
+    "site": "http://SHAUDHAS.COM"
+  }
+},
+{
+  "model": "livraria.livro",
+  "pk": 1,
+  "fields": {
+    "titulo": "aduadueteatutui",
+    "isbn": "123",
+    "quantidade": 12510,
+    "preco": "124.00",
+    "categoria": 1,
+    "editora": 1,
+    "capa": 1,
+    "autores": [
+      1
+    ]
+  }
+},
+{
+  "model": "livraria.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$izf5GMTA1CBnPyNtkrVfag$m+ua2RFGUw5roygXblNerSBp30UI3phenT3vT4BWWPo=",
+    "last_login": "2023-03-10T17:50:22Z",
+    "is_superuser": true,
+    "username": "heric",
+    "first_name": "Heric",
+    "last_name": "Damasio",
+    "email": "h@protonmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-10T17:27:52Z",
+    "cpf": "76618879086",
+    "telefone": null,
+    "data_nascimento": "2003-03-10",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "livraria.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$HgSK2NsZhgLnb91mdDnrvH$skgZhazpSjYsp15p5KjPhBIUqw6kVRb8bFn+UCJodQI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "legaheric",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-10T17:54:08Z",
+    "cpf": "23777458066",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "livraria.usuario",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$VcCSp1AGItDPAYVSyMzs9Y$IYiaiLkhEk8cTBDE/ngHhzTXPYI4HefBEQ8F8MmVa/8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bazinga",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-10T17:55:47Z",
+    "cpf": "uoooo",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "livraria.usuario",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$4Xme2KOkdsRW7otJVyuiXZ$dRljG6JswASf5SNwylziSxg1qzSgaBJVGtFH/E8NwZw=",
+    "last_login": "2023-03-14T18:27:23.936Z",
+    "is_superuser": true,
+    "username": "Heric",
+    "first_name": "",
+    "last_name": "",
+    "email": "hericmdms@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-14T18:27:08.148Z",
+    "cpf": "",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "7b9b7612-4234-43ba-acc9-c87f57723c2d",
+    "public_id": "7c57fe23-4cca-49a8-af24-de120d124287",
+    "file": "images/7c57fe23-4cca-49a8-af24-de120d124287.jpg",
+    "description": "SANNNNNEEEESSSSS",
+    "uploaded_on": "2023-03-14T19:40:29.434Z"
+  }
+}
+]
