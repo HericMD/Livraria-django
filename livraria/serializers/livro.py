@@ -14,11 +14,10 @@ class LivroSerializer(ModelSerializer):
         write_only=True,
     )
     capa = ImageSerializer(required=False, read_only=True)
-
-class LivroSerializer(ModelSerializer):
     class Meta:
         model = Livro
         fields = "__all__"
+ 
 
 class LivroDetailSerializer(ModelSerializer):
     class Meta:
