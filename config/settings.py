@@ -1,5 +1,14 @@
 from pathlib import Path
 import os
+import environ
+
+env = environ.Env()
+environ.Env.read_env((os.path.join(Base_DIR, '.env')))
+
+CRET_KEY = env('SECRET_KEY')
+DEBUG = env('DEBUG')
+ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
+DATABASES = {'default': env.db()}
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
