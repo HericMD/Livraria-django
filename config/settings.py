@@ -3,20 +3,20 @@ import os
 import environ
 
 env = environ.Env()
-environ.Env.read_env((os.path.join(Base_DIR, '.env')))
+environ.Env.read_env((os.path.join('.env')))
 
-CRET_KEY = env('SECRET_KEY')
+SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
 DATABASES = {'default': env.db()}
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-4cdmxy+t-u$@ad0zbrw0f22jq8p&4n_&m#c+#%%6sqvp1usb44'
+# SECRET_KEY = 'django-insecure-4cdmxy+t-u$@ad0zbrw0f22jq8p&4n_&m#c+#%%6sqvp1usb44'
 
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -62,18 +62,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
-# Password validation
-# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
