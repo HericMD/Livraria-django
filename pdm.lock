@@ -138,6 +138,12 @@ requires_python = ">=3.5"
 summary = "Type system extensions for programs checked with the mypy type checker."
 
 [[package]]
+name = "mysqlclient"
+version = "2.1.1"
+requires_python = ">=3.5"
+summary = "Python interface to MySQL"
+
+[[package]]
 name = "package"
 version = "0.1.1"
 summary = ""
@@ -232,7 +238,7 @@ summary = "Implementation of RFC 6570 URI Templates"
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:75d97622843c63d70003325e26458d2adef73004b5d4bab8661a6b9b3e8c9d34"
+content_hash = "sha256:719cf363f5cddc6056a03e8a035c2ee8d8b84df113583571cbe5dbda05c4a9fa"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -325,6 +331,15 @@ content_hash = "sha256:75d97622843c63d70003325e26458d2adef73004b5d4bab8661a6b9b3
 "mypy-extensions 1.0.0" = [
     {url = "https://files.pythonhosted.org/packages/2a/e2/5d3f6ada4297caebe1a2add3b126fe800c96f56dbe5d1988a2cbe0b267aa/mypy_extensions-1.0.0-py3-none-any.whl", hash = "sha256:4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"},
     {url = "https://files.pythonhosted.org/packages/98/a4/1ab47638b92648243faf97a5aeb6ea83059cc3624972ab6b8d2316078d3f/mypy_extensions-1.0.0.tar.gz", hash = "sha256:75dbf8955dc00442a438fc4d0666508a9a97b6bd41aa2f0ffe9d2f2725af0782"},
+]
+"mysqlclient 2.1.1" = [
+    {url = "https://files.pythonhosted.org/packages/14/98/36dbbd5397d60639d9128afefe35c6f45d8265a49650e421a9de4bae3189/mysqlclient-2.1.1-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:996924f3483fd36a34a5812210c69e71dea5a3d5978d01199b78b7f6d485c855"},
+    {url = "https://files.pythonhosted.org/packages/50/5f/eac919b88b9df39bbe4a855f136d58f80d191cfea34a3dcf96bf5d8ace0a/mysqlclient-2.1.1.tar.gz", hash = "sha256:828757e419fb11dd6c5ed2576ec92c3efaa93a0f7c39e263586d1ee779c3d782"},
+    {url = "https://files.pythonhosted.org/packages/5a/eb/c814e0daa6284c6569fd8bb3ff76745dcd62ada456513cdbae21c1ce9c32/mysqlclient-2.1.1-cp39-cp39-win_amd64.whl", hash = "sha256:b355c8b5a7d58f2e909acdbb050858390ee1b0e13672ae759e5e784110022994"},
+    {url = "https://files.pythonhosted.org/packages/61/a5/92b4df8cf63b192a0eaf93a17b81639bbdc6e0a50ac330aabc771ca0444f/mysqlclient-2.1.1-cp311-cp311-win_amd64.whl", hash = "sha256:c812b67e90082a840efb82a8978369e6e69fc62ce1bda4ca8f3084a9d862308b"},
+    {url = "https://files.pythonhosted.org/packages/9c/4b/ea487008d89731bcb80df55be2ed89c18dce927fd033ec4353d408d789ef/mysqlclient-2.1.1-cp310-cp310-win_amd64.whl", hash = "sha256:c1ed71bd6244993b526113cca3df66428609f90e4652f37eb51c33496d478b37"},
+    {url = "https://files.pythonhosted.org/packages/c5/e6/d3dd1d7d47f8ae2e1ac8dde451822cd57da6145ae1597e6db36091f2dd68/mysqlclient-2.1.1-cp38-cp38-win_amd64.whl", hash = "sha256:0d1cd3a5a4d28c222fa199002810e8146cffd821410b67851af4cc80aeccd97c"},
+    {url = "https://files.pythonhosted.org/packages/cd/25/8b7819e4bb502be4e1b4539783088007652d5977b6d6d036311fc26fc41a/mysqlclient-2.1.1-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:dea88c8d3f5a5d9293dfe7f087c16dd350ceb175f2f6631c9cf4caf3e19b7a96"},
 ]
 "package 0.1.1" = [
     {url = "https://files.pythonhosted.org/packages/27/16/89ea913b3e70256b9abe4f222543553fcce8bafc7ff3774a8802a054e6b8/package-0.1.1.tar.gz", hash = "sha256:01eee19a56a936bd63222f0a3c531fcdba37b5ad1bd833b960d62fb960b4955e"},
