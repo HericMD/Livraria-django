@@ -5,12 +5,12 @@ import environ
 env = environ.Env()
 environ.Env.read_env((os.path.join('.env')))
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DEBUG')
 ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
 DATABASES = {'default': env.db()}
-
-BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECRET_KEY = 'django-insecure-4cdmxy+t-u$@ad0zbrw0f22jq8p&4n_&m#c+#%%6sqvp1usb44'
 
