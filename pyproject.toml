@@ -23,6 +23,7 @@ dependencies = [
     "Pillow>=9.4.0",
     "drf-spectacular>=0.26.1",
     "django-environ>=0.10.0",
+    "media>=0.1.6",
 ]
 requires-python = ">=3.10"
 license = {text = "MIT"}

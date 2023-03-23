@@ -10,7 +10,7 @@ from rest_framework_simplejwt.views import(
     TokenRefreshView,
 )
 
-from livraria.views import CategoriaViewSet, EditoraViewSet, AutorViewSet, LivroViewSet
+from livraria.views import CategoriaViewSet, EditoraViewSet, AutorViewSet, LivroViewSet, UsuarioViewSet
 
 from uploader.router import router as uploader_router
 
@@ -25,6 +25,7 @@ router.register(r'categorias', CategoriaViewSet)
 router.register(r'editoras', EditoraViewSet)
 router.register(r'autores', AutorViewSet)
 router.register(r'livros', LivroViewSet)
+router.register(r'usuarios', UsuarioViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
