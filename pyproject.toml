@@ -16,7 +16,6 @@ dependencies = [
     "django>=4.1.7",
     "djangorestframework>=3.14.0",
     "djangorestframework-simplejwt>=5.2.2",
-    "package>=0.1.1",
     "resources>=0.0.1",
     "setuptools>=67.6.0",
     "python-magic>=0.4.27",
@@ -40,5 +39,3 @@ test = "python manage.py test"
 startapp = "python manage.py startapp {args}"
 loaddata = "python manage.py loaddata {args}"
 dumpdata = "python manage.py dumpdata {args}"
-
-#a partir do passo 14, tentar iniciar projeto: erro pkg_resources: solução: pdm add setuptools
