@@ -667,6 +667,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "kvqp4bvu2cg3iwwgdtt8k6haqfi784rd",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnsZo1tSvqcwVr_cADZUpxUiLuTSCmgfTPz3sLxuhS39jS7KYqrAHH63TyHZ6o7iA-u9yZDq8s8ebkr8qBdji2m1-1w_w4K97LVpMiC9ZSRA54pD4a0T-AzDsooTpl1DmED0agIGobI3hqliRAR4CI-X90AN20:1pee44:UMuwsv4YNDxE8SBASnYjWIyDaHlC0lwAYU0ihjT20YI",
+    "expire_date": "2023-04-04T15:38:20.998Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "s97exzo85fb7atnx2q65tgfliwe4ub6l",
   "fields": {
     "session_data": ".eJxVjEEOwiAQRe_C2hDoAGVcuvcMZBhAqoYmpV0Z765NutDtf-_9lwi0rTVsPS9hSuIsjDj9bpH4kdsO0p3abZY8t3WZotwVedAur3PKz8vh_h1U6vVba0YoiUoxGJm1B6-isgzaGbCAjtEkqxB8pMRsB3Aq4zAyjWjZWyfeH-XNN4I:1pc9Mp:hifHKzuGaZrFltPEZAahJUgBh3aJ-qbkhocoVlrTcr4",
@@ -717,7 +725,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$390000$izf5GMTA1CBnPyNtkrVfag$m+ua2RFGUw5roygXblNerSBp30UI3phenT3vT4BWWPo=",
-    "last_login": "2023-03-10T17:50:22Z",
+    "last_login": "2023-03-21T15:38:20.994Z",
     "is_superuser": true,
     "username": "heric",
     "first_name": "Heric",
@@ -726,6 +734,7 @@
     "is_staff": true,
     "is_active": true,
     "date_joined": "2023-03-10T17:27:52Z",
+    "foto": 1,
     "cpf": "76618879086",
     "telefone": null,
     "data_nascimento": "2003-03-10",
@@ -747,6 +756,7 @@
     "is_staff": false,
     "is_active": true,
     "date_joined": "2023-03-10T17:54:08Z",
+    "foto": 1,
     "cpf": "23777458066",
     "telefone": null,
     "data_nascimento": null,
@@ -768,6 +778,7 @@
     "is_staff": false,
     "is_active": true,
     "date_joined": "2023-03-10T17:55:47Z",
+    "foto": 1,
     "cpf": "uoooo",
     "telefone": null,
     "data_nascimento": null,
@@ -789,6 +800,7 @@
     "is_staff": true,
     "is_active": true,
     "date_joined": "2023-03-14T18:27:08.148Z",
+    "foto": 1,
     "cpf": "",
     "telefone": null,
     "data_nascimento": null,
